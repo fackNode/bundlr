@@ -18,7 +18,6 @@ fi
 
 if command -v node &>/dev/null && node -v && command -v npm &>/dev/null && npm -v; then
   echo -e "${fmt}\nNodeJs and NPM installed correctly${end}" && sleep 1
-
 else
   echo -e "${err}\nNodeJs and NPM installed incorrectly${end}" && sleep 1
 fi
